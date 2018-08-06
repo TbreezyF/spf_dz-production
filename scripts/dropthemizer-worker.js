@@ -6,6 +6,6 @@ self.addEventListener("message", function(e) {
             self.postMessage(this.responseText);
         }
     };
-    xhttp.open("GET", "https://53a09147.ngrok.io/api/optimize/?url=" + e.data, true);
+    xhttp.open("GET", "https://dropthemzier-v1.appspot.com/api/optimize/?url=" + e.data, true);
     xhttp.send();
 });

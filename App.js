@@ -28,7 +28,7 @@ let postRequestHeaders, getRequestHeaders;
 const apiKey = process.env.SHOPIFY_API_KEY;
 const apiSecret = process.env.SHOPIFY_API_SECRET;
 const scopes = ['read_themes', 'write_themes', 'read_products', 'write_products'];
-const APP_URL = "https://254c191c.ngrok.io"; // Replace this with your HTTPS Forwarding address
+const APP_URL = "https://dropthemzier-v1.appspot.com"; // Replace this with your HTTPS Forwarding address
 
 //Set up app view engine/static paths
 app.set('view engine', 'ejs');
